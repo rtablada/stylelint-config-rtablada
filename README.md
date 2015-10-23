@@ -1,14 +1,15 @@
-# stylelint-config-suitcss
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-suitcss.svg)](https://www.npmjs.org/package/stylelint-config-suitcss) [![Travis Build Status](https://img.shields.io/travis/stylelint/stylelint-config-suitcss/master.svg?label=unix%20build)](https://travis-ci.org/stylelint/stylelint-config-suitcss) [![AppVeyor Build Status](https://img.shields.io/appveyor/ci/jeddy3/stylelint-config-suitcss/master.svg?label=windows%20build)](https://ci.appveyor.com/project/jeddy3/stylelint-config-suitcss)
+# stylelint-config-rtablada
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-rtablada.svg)](https://www.npmjs.org/package/stylelint-config-rtablada) [![Travis Build Status](https://img.shields.io/travis/rtablada/stylelint-config-rtablada/master.svg?label=unix%20build)](https://travis-ci.org/rtablada/stylelint-config-rtablada)
 
 > SuitCSS shareable config for stylelint.
 
-Configuration rules to ensure your CSS code is compliant with [SuitCSS's code style](https://github.com/suitcss/suit/blob/master/doc/STYLE.md).
+My CSS style guide is very similar to the [SuitCSS's code style](https://github.com/suitcss/suit/blob/master/doc/STYLE.md)
+with one change in that I find that CSS rules should be grouped logically instead of alphabetically.
 
 ## Installation
 
 ```console
-$ npm install stylelint-config-suitcss
+$ npm install stylelint-config-rtablada
 ```
 
 ## Usage
@@ -17,7 +18,7 @@ Set your stylelint config to:
 
 ```json
 {
-  "extends": "stylelint-config-suitcss"
+  "extends": "stylelint-config-rtablada"
 }
 ```
 
@@ -30,7 +31,7 @@ For example, to change the `indentation` to tabs and turn off the `number-leadin
 
 ```json
 {
-  "extends": "stylelint-config-suitcss",
+  "extends": "stylelint-config-rtablada",
   "rules": {
     "indentation": [2, "tab"],
     "number-leading-zero": 0

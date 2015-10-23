@@ -1,16 +1,16 @@
 {
-  "name": "stylelint-config-suitcss",
-  "version": "0.5.1",
-  "description": "SuitCSS shareable config for stylelint",
+  "name": "stylelint-config-rtablada",
+  "version": "0.1.0",
+  "description": "Shareable config for stylelint based on SuitCSS but modified rule ordering",
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
-  "author": "Stylelint",
+  "author": "Ryan Tablada",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stylelint/stylelint-config-suitcss.git"
+    "url": "https://github.com/rtablada/stylelint-config-rtablada.git"
   },
   "main": "index.js",
   "files": [
